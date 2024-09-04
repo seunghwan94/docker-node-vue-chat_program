@@ -1,0 +1,24 @@
+node_modules/
+config.json
+
+# Ignore front directory and its contents
+/front/node_modules/
+/front/dist/
+
+/front/.env.local
+/front/.env.*.local
+
+/front/npm-debug.log*
+/front/yarn-debug.log*
+/front/yarn-error.log*
+/front/pnpm-debug.log*
+
+/front/.idea/
+/front/.vscode/
+/front/*.suo
+/front/*.ntvs*
+/front/*.njsproj
+/front/*.sln
+/front/*.sw?
+
+/front/config.json
