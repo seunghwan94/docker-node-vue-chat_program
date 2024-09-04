@@ -1,19 +1,19 @@
-# DockerVueChatBack (node.js)
+# DockerVueChat(node.js)
 
 mysql, node.js 
 (socket.io)를 이용하여 front(vue.js)로 Chatting 프로그램 구현
 
 [DockerVueChat notion 바로가기](https://www.notion.so/DockerVueChat-ba27ae64d28e47d48b2dacaa89e81fdf?pvs=4)
 
-## npm 준비
+# Back
+### npm 준비
 
 ```
+cd back
 npm i 
 ```
 
-### server.js랑 같은 위치에 config.json 파일 생성
-
-example
+### server.js랑 같은 위치에 config.json 파일 생성 (example)
 
 ```
 {
@@ -31,12 +31,10 @@ example
 }
 ```
 
-## 실행
+### Back(node) 실행
 ```
 node run server.js
 ```
-
-[DockerVueChatFront 바로가기](https://github.com/seunghwan94/DockerVueChatFront)
 
 ### mysql setting
 
@@ -86,19 +84,14 @@ ENGINE=InnoDB;
 
 
 
-# DockerVueChatFront (vue.js)
-챗봇 앞단으로 socket.io 를 이용하여 화면 구성
-
-Back단이 있어야 사용가능
-
-[DockerVueChat notion 바로가기](https://www.notion.so/DockerVueChat-ba27ae64d28e47d48b2dacaa89e81fdf?pvs=4)
-
-## npm setting
+# Front
+### npm setting
 ```
+cd front
 npm i
 ```
 
-### .gitignore랑 같은 위치에 config.json 파일 생성
+### config.json 파일 생성
 
 example
 
@@ -112,11 +105,9 @@ example
 
 ```
 
-### 실행
+### Front(vue) 실행
 ```
 npm run serve
 ```
 
-### Back 단 바로가기
-[DockerVueChatBack 바로가기](https://github.com/seunghwan94/DockerVueChatBack).
 
