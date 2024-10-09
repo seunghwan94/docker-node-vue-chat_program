@@ -4,6 +4,10 @@ mysql, node.js
 (socket.io)를 이용하여 front(vue.js)로 Chatting 프로그램 구현
 
 [DockerVueChat notion 바로가기](https://www.notion.so/DockerVueChat-ba27ae64d28e47d48b2dacaa89e81fdf?pvs=4)
+### 스크린 샷
+<img width="934" alt="DockerVueChatlogin" src="https://github.com/user-attachments/assets/5c4d56c6-de7c-4a53-9ee3-d7ac19bc3ab0">
+<img width="1234" alt="DockerVueChatMain" src="https://github.com/user-attachments/assets/3852813b-da3d-4027-83d8-78e8d5575663">
+
 
 # Back
 ### npm 준비
